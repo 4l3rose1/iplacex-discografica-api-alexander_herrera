@@ -7,7 +7,7 @@ WORKDIR /home/gradle/src
 RUN gradle bootJar --no-daemon
 
 # --- Ejecución ---
-FROM openjdk:21
+FROM eclipse-temurin:21-jre
 
 EXPOSE 8080
 
