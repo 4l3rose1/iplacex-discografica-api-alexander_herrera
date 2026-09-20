@@ -1,1 +1,1 @@
-# iplacex-discografica-api-alexander_herrera
+API REST Spring para administración de discografías favoritas de empleados de IPLACEX
