@@ -7,7 +7,7 @@ WORKDIR /home/gradle/src
 RUN gradle bootJar --no-daemon
 
 # --- Ejecución ---
-FROM openjdk:21-slim
+FROM openjdk:21
 
 EXPOSE 8080
 
